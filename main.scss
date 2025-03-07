@@ -1,8 +1,8 @@
-@import "./scss/abstract/typography.scss";
-@import "./scss/abstract/variables.scss";
-@import "./scss/base/base.scss";
-@import "./scss/base/reset.scss";
-@import "./scss/components/buttons.scss";
-@import "./scss/layout/footer.scss";
-@import "./scss/layout/header.scss";
-@import "./scss/utilities/container.scss";
+@use "./scss/abstract/variables";
+@use "./scss/base/reset";
+@use "./scss/abstract/typography";
+@use "./scss/base/base";
+@use "./scss/components/buttons";
+@use "./scss/layout/footer";
+@use "./scss/layout/header";
+@use "./scss/utilities/container";
