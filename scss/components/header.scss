@@ -4,4 +4,34 @@
   background-image: url(../../images/header.png);
   background-size: cover;
   background-repeat: no-repeat;
+  &wrapper_container {
+  width: 100%;
+  height: calc(100vh - 12rem);
+  display: flex;
+  align-items: center;
+  }
+  &_wrapper {
+    width: 50%;
+  }
+  &_main_title{
+    margin-bottom: 2rem;
+  }
+  &_p{
+    margin-bottom: 4rem;
+  }
+  &_btn{
+    &_outlined{
+      border: 2px solid $primary_color_1;
+      border-radius: 10rem;
+      color: $primary_color_1;
+      font-weight: 600;
+    }
+    &_bg{
+      background-color: $primary_color_1;
+      color: $white;
+      border-radius: 10rem;
+      border: 2px solid $primary_color_1;
+      margin-left: 1rem;
+    }
 }
+
