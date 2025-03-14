@@ -1,0 +1,16 @@
+.section{
+  width: 100%;
+  &_header {
+    width: 100%;
+    display: flex;
+    justify_content: space-between;
+    align-items: center;
+    margin-bottom: 4rem;
+    &_p {
+      color: $text;
+    }
+    &_h2 {
+      color: $secondary_color_2;
+    }
+  }
+}
