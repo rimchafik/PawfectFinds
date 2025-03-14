@@ -19,19 +19,5 @@
   &_p{
     margin-bottom: 4rem;
   }
-  &_btn{
-    &_outlined{
-      border: 2px solid $primary_color_1;
-      border-radius: 10rem;
-      color: $primary_color_1;
-      font-weight: 600;
-    }
-    &_bg{
-      background-color: $primary_color_1;
-      color: $white;
-      border-radius: 10rem;
-      border: 2px solid $primary_color_1;
-      margin-left: 1rem;
-    }
 }
 
