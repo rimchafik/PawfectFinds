@@ -25,11 +25,12 @@
   .banner2{
   width: 100%;
   background_image: url(../../images/banner-2-img.png);
+    background-size: cover;
   background-repeat: no repeat;
 
   &_wrapper{
     display: flex;
-    padding: 0rem 7rem;
+    padding: 7rem;
     width: 100%;
     justify-content: space-between;
     align-items: center;
@@ -43,6 +44,6 @@
     margin-bottom: 4rem;
   }
   &_content{
-    text-align: right;
+    width: 45%;
   }
 }
