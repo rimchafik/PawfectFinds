@@ -1,0 +1,19 @@
+@use "../abstract/variables" as var;
+.btn{
+  text-decoration: none;
+  padding: 1.3rem 2.2rem;
+  &_outlined {
+    border: 2px solid var.$primary_color_1;
+    border-radius: 10rem;
+    color: var.$primary_color_1;
+    font-weight: 600;
+  }
+
+  &_bg {
+    background-color: var.$primary_color_1;
+    color: var.$white;
+    border: 2px solid var.$primary_color_1;
+    border-radius: 10rem;
+    margin-left: 1rem;
+  }
+}

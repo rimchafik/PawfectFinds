@@ -1,0 +1,90 @@
+@use "../abstract/variables" as var;
+.banner{
+  width: 100%;
+  background-image: url(../../images/banner-1-bg.png);
+  background-repeat: no repeat;
+
+  &_wrapper{
+    display: flex;
+    padding: 0rem 7rem;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &_title{
+    font-size: 2.4rem;
+     margin-bottom: 2rem;
+    color: var.$primary_color_1;
+  }
+
+  &_p{
+    margin-bottom: 4rem;
+  }
+
+  &_content{
+    text-align: right;
+  }
+}
+
+.banner2{
+  width: 100%;
+  background-image: url(../../images/banner-2-img.png);
+  background-size: cover;
+  background-repeat: no repeat;
+
+  &_wrapper{
+    display: flex;
+    padding: 7rem;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &_title{
+    font-size: 2.4rem;
+    margin-bottom: 2rem;
+    color: var.$primary_color_1;
+  }
+
+  &_p{
+    margin-bottom: 4rem;
+  }
+
+  &_content{
+    width: 45%;
+  }
+}
+
+.banner3{
+  width: 100%;
+  background-image: url(../../images/category_banner.png);
+  background-size: cover;
+  background-repeat: no repeat;
+
+  &_wrapper{
+    display: flex;
+    padding: 7rem;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    text-align: right;
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  &_title{
+    font-size: 2.4rem;
+    margin-bottom: 2rem;
+    color: var.$white;
+  }
+
+  &_p{
+    margin-bottom: 4rem;
+    color: var.$white;
+  }
+
+  &_content{
+    width: 45%;
+  }
+}

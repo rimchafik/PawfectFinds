@@ -1,0 +1,8 @@
+@use "../abstract/variables" as var;
+.logos_container{
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr));
+  grid-gap: 3rem;
+  align-items: center;
+}

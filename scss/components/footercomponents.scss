@@ -1,0 +1,70 @@
+@use "../abstract/variables" as var;
+.footer{
+    width: 100%;
+    margin-top: 10rem;
+    background-color: var.$secondary_color_1;
+
+    &_container{
+        padding: 8rem 0rem;
+    }
+
+    &_top{
+        background-color: var.$primary_color_1;
+        border-radius: 1rem;
+        padding: 3rem;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 2.5rem;
+
+        &_heading{
+            width: 40%;
+        }
+
+        &_form{
+            width: 60%;
+            background-color: var.$secondary_color_3;
+            padding: 1rem 2rem;
+            border-radius: 1rem;
+
+            &_input{
+                padding: 1.1rem;
+                width: 80%;
+            }
+
+            &_btn{
+                background-color: var.$primary_color_1;
+                outline: none;
+                border: none;
+                color: var.$white;
+                width: 18%;
+                cursor: pointer;
+            }
+        }
+    }
+
+    &_middle{
+        border-bottom: 1px solid var.$secondary_color_2;
+    }
+    &_bottom{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 4rem;
+
+        &_list{
+            list-style: none;
+            display: flex;
+
+            &_item{
+                list-style: none;
+                margin-left: 1.4rem;
+                text-decoration: none;
+            }
+        }
+
+        
+    }
+}
