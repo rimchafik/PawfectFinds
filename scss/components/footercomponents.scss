@@ -1,70 +1,82 @@
+// Importing variables from the abstract/variables file for reusable colors
 @use "../abstract/variables" as var;
-.footer{
-    width: 100%;
-    margin-top: 10rem;
-    background-color: var.$secondary_color_1;
 
-    &_container{
-        padding: 8rem 0rem;
+// Footer container styling
+.footer {
+  width: 100%; // Make the footer take full width
+  margin-top: 10rem; // Add margin from top
+  background-color: var.$secondary_color_1; // Set background color using secondary color 1
+}
+
+// Container inside the footer
+&_container {
+  padding: 8rem 0rem; // Add padding for spacing
+}
+
+// Top section of the footer
+&_top {
+  background-color: var.$primary_color_1; // Set background color to primary color 1
+  border-radius: 1rem; // Round the corners
+  padding: 3rem; // Add padding inside the top section
+  width: 100%; // Make the top section take full width
+  display: flex; // Use flexbox for layout
+  justify-content: space-between; // Space between elements
+  align-items: center; // Align items vertically
+  margin-bottom: 2.5rem; // Add margin below the top section
+
+  // Heading inside the top section of the footer
+  &_heading {
+    width: 40%; // Set width for the heading
+  }
+
+  // Form inside the top section of the footer
+  &_form {
+    width: 60%; // Set width for the form
+    background-color: var.$secondary_color_3; // Set background color to secondary color 3
+    padding: 1rem 2rem; // Add padding inside the form
+    border-radius: 1rem; // Round the corners of the form
+
+    // Input inside the form
+    &_input {
+      padding: 1.1rem; // Add padding for the input field
+      width: 80%; // Set width for the input field
     }
 
-    &_top{
-        background-color: var.$primary_color_1;
-        border-radius: 1rem;
-        padding: 3rem;
-        width: 100%;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        margin-bottom: 2.5rem;
-
-        &_heading{
-            width: 40%;
-        }
-
-        &_form{
-            width: 60%;
-            background-color: var.$secondary_color_3;
-            padding: 1rem 2rem;
-            border-radius: 1rem;
-
-            &_input{
-                padding: 1.1rem;
-                width: 80%;
-            }
-
-            &_btn{
-                background-color: var.$primary_color_1;
-                outline: none;
-                border: none;
-                color: var.$white;
-                width: 18%;
-                cursor: pointer;
-            }
-        }
+    // Button inside the form
+    &_btn {
+      background-color: var.$primary_color_1; // Set background color to primary color 1
+      outline: none; // Remove outline
+      border: none; // Remove border
+      color: var.$white; // Set text color to white
+      width: 18%; // Set width for the button
+      cursor: pointer; // Add pointer cursor on hover
     }
+  }
+}
 
-    &_middle{
-        border-bottom: 1px solid var.$secondary_color_2;
+// Middle section of the footer
+&_middle {
+  border-bottom: 1px solid var.$secondary_color_2; // Add a border at the bottom using secondary color 2
+}
+
+// Bottom section of the footer
+&_bottom {
+  width: 100%; // Make the bottom section take full width
+  display: flex; // Use flexbox for layout
+  justify-content: space-between; // Space between elements
+  align-items: center; // Align items vertically
+  padding-top: 4rem; // Add padding at the top
+
+  // List inside the bottom section
+  &_list {
+    list-style: none; // Remove list styling
+    display: flex; // Use flexbox for list items
+
+    // List items inside the bottom list
+    &_item {
+      list-style: none; // Remove list styling
+      margin-left: 1.4rem; // Add left margin between list items
+      text-decoration: none; // Remove text decoration (e.g., underline)
     }
-    &_bottom{
-        width: 100%;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        padding-top: 4rem;
-
-        &_list{
-            list-style: none;
-            display: flex;
-
-            &_item{
-                list-style: none;
-                margin-left: 1.4rem;
-                text-decoration: none;
-            }
-        }
-
-        
-    }
+  }
 }
