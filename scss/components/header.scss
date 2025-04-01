@@ -1,33 +1,40 @@
+// Importing variables from the abstract/variables file for reusable colors
 @use "../abstract/variables" as var;
-.header{
-  width:100%;
-  height: 100vh;
-  background-image: url(../../images/header.png);
-  background-size: cover;
-  background-repeat: no-repeat;
 
-  &_category{
-    height: 8rem;
+// Header section styling
+.header {
+  width: 100%; // Make the header take full width
+  height: 100vh; // Make the header take full viewport height
+  background-image: url(../../images/header.png); // Set background image for the header
+  background-size: cover; // Ensure the background image covers the full height and width
+  background-repeat: no-repeat; // Prevent the background image from repeating
+
+  // Category section inside the header
+  &_category {
+    height: 8rem; // Set fixed height for the category section inside the header
   }
 
+  // Wrapper container for the content inside the header
   &wrapper_container {
-  width: 100%;
-  height: calc(100vh - 12rem);
-  display: flex;
-  align-items: center;
+    width: 100%; // Make the container take full width
+    height: calc(100vh - 12rem); // Calculate height based on full viewport height minus category section height
+    display: flex; // Use flexbox for layout
+    align-items: center; // Vertically center content inside the container
   }
 
+  // Wrapper section inside the header
   &_wrapper {
-    width: 50%;
+    width: 50%; // Make the wrapper section take up 50% of the width
   }
 
-  &_main_title{
-    margin-bottom: 2rem;
-    color: var.$primary_color_1;
+  // Main title in the header section
+  &_main_title {
+    margin-bottom: 2rem; // Add space below the main title
+    color: var.$primary_color_1; // Set text color using primary color 1
   }
-  
-  &_p{
-    margin-bottom: 4rem;
+
+  // Paragraph text inside the header section
+  &_p {
+    margin-bottom: 4rem; // Add space below the paragraph
   }
 }
-
