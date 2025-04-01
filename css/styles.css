@@ -1,36 +1,45 @@
+/* Importing Google Fonts */
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+/* Global Styles and Reset */
 * {
   padding: 0px;
   margin: 0px;
   box-sizing: border-box;
 }
 
+/* Setting base font size for responsive scaling */
 html {
   font-size: 10px;
 }
 
+
 body {
   font-family: "Montserrat", sans-serif;
-  font-size: 1.6rem;
-  color: #001321;
+  font-size: 1.6rem; /* Base font size for readability */
+  color: #001321; /* Primary text color */
   font-weight: 500;
-  background-color: #eee;
+  background-color: #eee; /* Light gray background for contrast */
 }
 
+/* General Section Spacing */
 .section {
-  margin-top: 10rem;
+  margin-top: 10rem; /* Space between sections */
 }
 
+/* Headings Styling */
 h1 {
-  font-size: 4.8rem;
+  font-size: 4.8rem; /* Large font size for prominent titles */
 }
 
+/* Container - Standard max-width for centering content */
 .container {
   max-width: 114rem;
   margin: 0 auto;
   padding: 0rem 1.5rem;
 }
 
+/* Button Styling */
 .btn {
   text-decoration: none;
   padding: 1.3rem 2.2rem;
@@ -49,6 +58,7 @@ h1 {
   margin-left: 1rem;
 }
 
+/* Header Styling */
 .header {
   width: 100%;
   height: 100vh;
@@ -66,16 +76,17 @@ h1 {
   align-items: center;
 }
 .header_wrapper {
-  width: 50%;
+  width: 50%; /* Takes half of the screen width */
 }
 .header_main_title {
   margin-bottom: 2rem;
-  color: #003459;
+  color: #003459; /* Dark blue for headings */
 }
 .header_p {
   margin-bottom: 4rem;
 }
 
+/* Navigation Bar Styling */
 .nav {
   width: 100%;
   height: 12rem;
@@ -98,7 +109,7 @@ h1 {
   margin-right: 3rem;
 }
 .nav_logo img {
-  max-width: 10rem;
+  max-width: 10rem; /* Logo size */
 }
 .nav_list {
   display: flex;
@@ -117,6 +128,8 @@ h1 {
 .section {
   width: 100%;
 }
+
+/* Section Header Styling */
 .section_header {
   width: 100%;
   display: flex;
@@ -131,6 +144,7 @@ h1 {
   color: #e7c88e;
 }
 
+/* Cards Grid Layout */
 .row {
   width: 100%;
   display: grid;
@@ -138,15 +152,17 @@ h1 {
   grid-gap: 2rem;
 }
 
+/* Card Styling */
 .card {
   padding: 1rem;
   background-color: #fff;
   border-radius: 5px;
-  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
 }
 .card > img {
   width: 100%;
 }
+/* Card Text Content */
 .card_body_title {
   font-size: 1.6rem;
   margin: 0.6rem 0rem;
@@ -166,6 +182,8 @@ h1 {
 .card_body_details_price {
   font-weight: 700;
 }
+
+/* Gift Highlight for Cards */
 .card_body_details_gift {
   margin-top: 1.5rem;
   padding: 1rem;
@@ -180,6 +198,8 @@ h1 {
 .card_body_details_gift_p {
   font-weight: 600;
 }
+
+/* Category Label for Cards */
 .card_body_category {
   background-color: #003459;
   padding: 0.4rem 0.5rem;
@@ -193,11 +213,13 @@ h1 {
   font-size: 1.2rem;
 }
 
+/* Banner Section Styling */
 .banner {
   width: 100%;
   background-image: url(../../images/banner-1-bg.png);
-  background-repeat: no repeat;
+  background-repeat: no repeat; /* Ensures background image is not repeated */
 }
+
 .banner_wrapper {
   display: flex;
   padding: 0rem 7rem;
@@ -205,24 +227,29 @@ h1 {
   justify-content: space-between;
   align-items: center;
 }
+
 .banner_title {
   font-size: 2.4rem;
   margin-bottom: 2rem;
-  color: #003459;
+  color: #003459; /* Dark blue for visibility */
 }
+
 .banner_p {
   margin-bottom: 4rem;
 }
+
 .banner_content {
   text-align: right;
 }
 
+/* Banner 2 Styling */
 .banner2 {
   width: 100%;
   background-image: url(../../images/banner-2-img.png);
   background-size: cover;
   background-repeat: no repeat;
 }
+
 .banner2_wrapper {
   display: flex;
   padding: 7rem;
@@ -230,47 +257,48 @@ h1 {
   justify-content: space-between;
   align-items: center;
 }
-.banner2_title {
-  font-size: 2.4rem;
-  margin-bottom: 2rem;
+
+.banner2_title, .banner2_p {
   color: #003459;
 }
-.banner2_p {
-  margin-bottom: 4rem;
-}
+
 .banner2_content {
   width: 45%;
 }
 
+/* Banner 3 Styling */
 .banner3 {
   width: 100%;
   background-image: url(../../images/category_banner.png);
   background-size: cover;
   background-repeat: no repeat;
 }
+
 .banner3_wrapper {
   display: flex;
   padding: 7rem;
   width: 100%;
-  justify-content: space-between;
+  justify-content: flex-end; /* Align content to the right */
   align-items: center;
   text-align: right;
-  display: flex;
-  justify-content: flex-end;
 }
+
 .banner3_title {
   font-size: 2.4rem;
   margin-bottom: 2rem;
-  color: #fff;
+  color: #fff; /* White text for dark background */
 }
+
 .banner3_p {
   margin-bottom: 4rem;
   color: #fff;
 }
+
 .banner3_content {
   width: 45%;
 }
 
+/* Logos Section Styling */
 .logos_container {
   width: 100%;
   display: grid;
@@ -279,14 +307,17 @@ h1 {
   align-items: center;
 }
 
+/* Footer Styling */
 .footer {
   width: 100%;
   margin-top: 10rem;
   background-color: #F7DBA7;
 }
+
 .footer_container {
   padding: 8rem 0rem;
 }
+
 .footer_top {
   background-color: #003459;
   border-radius: 1rem;
@@ -297,19 +328,23 @@ h1 {
   align-items: center;
   margin-bottom: 2.5rem;
 }
+
 .footer_top_heading {
   width: 40%;
 }
+
 .footer_top_form {
   width: 60%;
   background-color: #fffaf0;
   padding: 1rem 2rem;
   border-radius: 1rem;
 }
+
 .footer_top_form_input {
   padding: 1.1rem;
   width: 80%;
 }
+
 .footer_top_form_btn {
   background-color: #003459;
   outline: none;
@@ -318,9 +353,11 @@ h1 {
   width: 18%;
   cursor: pointer;
 }
+
 .footer_middle {
   border-bottom: 1px solid #e7c88e;
 }
+
 .footer_bottom {
   width: 100%;
   display: flex;
@@ -328,54 +365,66 @@ h1 {
   align-items: center;
   padding-top: 4rem;
 }
+
 .footer_bottom_list {
   list-style: none;
   display: flex;
 }
+
 .footer_bottom_list_item {
   list-style: none;
   margin-left: 1.4rem;
   text-decoration: none;
 }
 
+/* Product Cards Styling */
 .product {
   width: 100%;
   padding: 5rem;
   border: 2px solid #fffaf0;
   border-radius: 2rem;
 }
+
 .product_card {
   width: 100%;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
 }
+
 .product_details {
   margin-left: 3rem;
 }
+
 .product_title {
   font-size: 2.8rem;
   margin-bottom: 1rem;
 }
+
 .product_btns {
   margin-top: 3rem;
 }
+
 .product_list {
   list-style: none;
   margin-top: 6rem;
 }
+
 .product_item {
   width: 100%;
   display: flex;
   margin: 2rem 0rem 2rem 0rem;
   border-bottom: 1px solid #fffaf0;
 }
+
 .product_item_key {
   width: 40%;
 }
+
 .product_item_value {
   margin-bottom: 2rem;
 }
 
+/* Swiper Carousel Styling */
 .swiper {
   width: 100%;
   height: 100px;
@@ -399,6 +448,7 @@ h1 {
   padding: 10px 0;
 }
 
+/* Thumbnail Styling for Swiper */
 .mySwiper .swiper-slide {
   width: 25%;
   height: 100%;
@@ -406,7 +456,7 @@ h1 {
 }
 
 .mySwiper .swiper-slide-thumb-active {
-  opacity: 1;
+  opacity: 1; /* Highlight active thumbnail */
 }
 
 .swiper-slide img {
@@ -415,5 +465,3 @@ h1 {
   height: 100%;
   object-fit: cover;
 }
-
-/*# sourceMappingURL=styles.css.map */
