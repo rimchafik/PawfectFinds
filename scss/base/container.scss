@@ -1,5 +1,6 @@
-.container{
-  max-width: 114rem;
-  margin:0 auto;
-  padding: 0rem 1.5rem;
+// Container for centralizing content with responsive padding and max width
+.container {
+  max-width: 114rem; // Defines the maximum width of the container
+  margin: 0 auto; // Centers the container horizontally
+  padding: 0rem 1.5rem; // Adds horizontal padding for smaller screens or responsiveness
 }
