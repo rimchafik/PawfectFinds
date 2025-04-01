@@ -1,6 +1,7 @@
-.row{
-  width: 100%;
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(24rem, 1fr));
-  grid-gap: 2rem;
+// Row container for grid layout with responsive columns
+.row {
+  width: 100%; // Full width of the container
+  display: grid; // Set grid layout
+  grid-template-columns: repeat(auto-fit, minmax(24rem, 1fr)); // Create flexible columns with a minimum width of 24rem
+  grid-gap: 2rem; // Set space between grid items
 }
