@@ -1,8 +1,11 @@
+// Importing variables from the abstract/variables file for reusable colors
 @use "../abstract/variables" as var;
-.logos_container{
-  width: 100%;
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr));
-  grid-gap: 3rem;
-  align-items: center;
+
+// Container for logo grid
+.logos_container {
+  width: 100%; // Make the container take full width
+  display: grid; // Use grid layout for the logos
+  grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr)); // Create flexible columns that fit automatically
+  grid-gap: 3rem; // Add space between the grid items
+  align-items: center; // Vertically center the logos within the grid
 }
