@@ -1,18 +1,53 @@
+// Importing global variables for reuse across the entire stylesheet
 @use "./scss/abstract/variables";
+
+// Importing a CSS reset to normalize styles across different browsers
 @use "./scss/base/reset";
+
+// Importing typography-related styles (font settings, text sizes, etc.)
 @use "./scss/abstract/typography";
+
+// Importing base styles, potentially including body, paragraph, and common elements
 @use "./scss/base/base";
+
+// Importing container styles, possibly for grid or layout structures
 @use "./scss/base/container";
+
+// Importing button component styles for consistent button appearance
 @use "./scss/components/buttons";
+
+// Importing styles for the header section (e.g., logo, top navigation)
 @use "./scss/components/header";
+
+// Importing navigation bar styles (specific to the main navigation bar)
 @use "./scss/components/navbar";
+
+// Importing section header styles, which could define typography and layout for section titles
 @use "./scss/components/sectionHeader";
+
+// Importing row-based layout styles, possibly for structuring content in rows
 @use "./scss/components/rows";
+
+// Importing card component styles, often used for displaying grouped content
 @use "./scss/components/card";
+
+// Importing banner styles, likely used for promotional or attention-grabbing sections
 @use "./scss/components/banner";
+
+// Importing logo component styles, possibly for different logo variations or sizes
 @use "./scss/components/logos";
+
+// Importing footer-related component styles
 @use "./scss/components/footercomponents";
+
+// Importing styles specific to the product page layout
 @use "./scss/pages/product";
+
+// Importing layout-specific styles for the footer section
 @use "./scss/layout/footer";
+
+// Importing header layout styles, possibly related to page header structure
 @use "./scss/layout/layoutheader";
+
+// Importing utility container styles, potentially for layout or spacing helpers
 @use "./scss/utilities/utilitiescontainer";
