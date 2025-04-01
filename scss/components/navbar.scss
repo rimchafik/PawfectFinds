@@ -1,44 +1,55 @@
+// Importing variables from the abstract/variables file for reusable colors
 @use "../abstract/variables" as var;
-.nav{
-  width: 100%;
-  height: 12rem;
 
-  &_category{
-    background-color: var.$white;
+// Navbar container, takes full width and sets a fixed height
+.nav {
+  width: 100%; // Full width
+  height: 12rem; // Set height for the navbar
+
+  // Styling for the category section within the navbar
+  &_category {
+    background-color: var.$white; // White background color for the category
   }
+
+  // Container for the navbar content, using flex for layout
   &_container {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    width: 100%; // Full width
+    height: 100%; // Full height
+    display: flex; // Flex layout
+    justify-content: space-between; // Space out items between left and right
+    align-items: center; // Vertically center items
   }
 
+  // Left section of the navbar
   &_left {
-    display: flex;
-    align-items: center;
+    display: flex; // Flex layout for the left items
+    align-items: center; // Vertically center the items
   }
 
+  // Logo section within the left section of the navbar
   &_logo {
-    margin-right: 3rem;
+    margin-right: 3rem; // Space between the logo and other items
     img {
-      max-width: 10rem;
+      max-width: 10rem; // Restrict the logo image size
     }
   }
 
+  // Navbar menu list (links)
   &_list {
-    display: flex;
-    list-style: none;
-    align-items: center;
+    display: flex; // Flex layout for the list
+    list-style: none; // Remove list bullet points
+    align-items: center; // Vertically center the items in the list
   }
 
+  // Individual items in the navbar menu list
   &_item {
-    margin: 0rem 0.8rem;
+    margin: 0rem 0.8rem; // Space between items
   }
-  
+
+  // Link styling inside the navbar
   &_link {
-    text-decoration: none;
-    font-weight: 500;
-    color: var.$primary_color_1;
+    text-decoration: none; // Remove underline from links
+    font-weight: 500; // Medium font weight
+    color: var.$primary_color_1; // Primary color from variables
   }
 }
