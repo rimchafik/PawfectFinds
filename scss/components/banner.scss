@@ -1,90 +1,109 @@
+// banner.scss
+
+// Importing variables from the abstract/variables file for reusable color and typography variables
 @use "../abstract/variables" as var;
-.banner{
-  width: 100%;
-  background-image: url(../../images/banner-1-bg.png);
-  background-repeat: no repeat;
 
-  &_wrapper{
-    display: flex;
-    padding: 0rem 7rem;
-    width: 100%;
-    justify-content: space-between;
-    align-items: center;
+// Styling for the main banner section
+.banner {
+  width: 100%; // Set banner to take full width
+  background-image: url(../../images/banner-1-bg.png); // Set background image for the banner
+  background-repeat: no-repeat; // Ensure the background image does not repeat
+
+  // Wrapper for the banner content with flexbox
+  &_wrapper {
+    display: flex; // Use flexbox for layout
+    padding: 0rem 7rem; // Add padding to the sides of the banner
+    width: 100%; // Set wrapper to take full width
+    justify-content: space-between; // Space out items within the wrapper
+    align-items: center; // Vertically center the items
   }
 
-  &_title{
-    font-size: 2.4rem;
-     margin-bottom: 2rem;
-    color: var.$primary_color_1;
+  // Styling for the banner title with customized color and size
+  &_title {
+    font-size: 2.4rem; // Set font size for the banner title
+    margin-bottom: 2rem; // Add margin to the bottom of the title for spacing
+    color: var.$primary_color_1; // Use primary color variable for title color
   }
 
-  &_p{
-    margin-bottom: 4rem;
+  // Styling for the paragraph text inside the banner
+  &_p {
+    margin-bottom: 4rem; // Add margin to the bottom for spacing
   }
 
-  &_content{
-    text-align: right;
-  }
-}
-
-.banner2{
-  width: 100%;
-  background-image: url(../../images/banner-2-img.png);
-  background-size: cover;
-  background-repeat: no repeat;
-
-  &_wrapper{
-    display: flex;
-    padding: 7rem;
-    width: 100%;
-    justify-content: space-between;
-    align-items: center;
-  }
-
-  &_title{
-    font-size: 2.4rem;
-    margin-bottom: 2rem;
-    color: var.$primary_color_1;
-  }
-
-  &_p{
-    margin-bottom: 4rem;
-  }
-
-  &_content{
-    width: 45%;
+  // Styling for the content area of the banner
+  &_content {
+    text-align: right; // Align content to the right
   }
 }
 
-.banner3{
-  width: 100%;
-  background-image: url(../../images/category_banner.png);
-  background-size: cover;
-  background-repeat: no repeat;
+// Styling for the second banner section
+.banner2 {
+  width: 100%; // Set banner2 to take full width
+  background-image: url(../../images/banner-2-img.png); // Set background image for the second banner
+  background-size: cover; // Ensure the background image covers the area
+  background-repeat: no-repeat; // Prevent the background image from repeating
 
-  &_wrapper{
+  // Wrapper for the banner2 content with flexbox
+  &_wrapper {
+    display: flex; // Use flexbox for layout
+    padding: 7rem; // Add padding to the sides of the banner
+    width: 100%; // Set wrapper to take full width
+    justify-content: space-between; // Space out items within the wrapper
+    align-items: center; // Vertically center the items
+  }
+
+  // Styling for the banner2 title
+  &_title {
+    font-size: 2.4rem; // Set font size for the title
+    margin-bottom: 2rem; // Add margin to the bottom for spacing
+    color: var.$primary_color_1; // Use primary color variable for title color
+  }
+
+  // Styling for the paragraph text inside banner2
+  &_p {
+    margin-bottom: 4rem; // Add margin to the bottom for spacing
+  }
+
+  // Styling for the content area of banner2
+  &_content {
+    width: 45%; // Set the width of the content area to 45%
+  }
+}
+
+// Styling for the third banner section
+.banner3 {
+  width: 100%; // Set banner3 to take full width
+  background-image: url(../../images/category_banner.png); // Set background image for banner3
+  background-size: cover; // Ensure the background image covers the area
+  background-repeat: no-repeat; // Prevent the background image from repeating
+
+  // Wrapper for the banner3 content with flexbox
+  &_wrapper {
+    display: flex; // Use flexbox for layout
+    padding: 7rem; // Add padding to the sides of the banner
+    width: 100%; // Set wrapper to take full width
+    justify-content: space-between; // Space out items within the wrapper
+    align-items: center; // Vertically center the items
+    text-align: right; // Align text to the right
     display: flex;
-    padding: 7rem;
-    width: 100%;
-    justify-content: space-between;
-    align-items: center;
-    text-align: right;
-    display: flex;
-    justify-content: flex-end;
+    justify-content: flex-end; // Align content to the end
   }
 
-  &_title{
-    font-size: 2.4rem;
-    margin-bottom: 2rem;
-    color: var.$white;
+  // Styling for the banner3 title with white color
+  &_title {
+    font-size: 2.4rem; // Set font size for the title
+    margin-bottom: 2rem; // Add margin to the bottom for spacing
+    color: var.$white; // Use white color for the title
   }
 
-  &_p{
-    margin-bottom: 4rem;
-    color: var.$white;
+  // Styling for the paragraph text inside banner3
+  &_p {
+    margin-bottom: 4rem; // Add margin to the bottom for spacing
+    color: var.$white; // Use white color for the paragraph text
   }
 
-  &_content{
-    width: 45%;
+  // Styling for the content area of banner3
+  &_content {
+    width: 45%; // Set the width of the content area to 45%
   }
 }
