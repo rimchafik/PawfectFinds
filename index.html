@@ -2,21 +2,29 @@
 <html lang="en">
 	
 	<head>
+	<!-- Character encoding for proper text rendering -->
     	<meta charset="UTF-8" />
-   		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<!-- Makes the website responsive, adjusting to the device's width -->
+   	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<!-- Title that appears in the browser tab -->
     	<title>Home Page</title>
+	<!-- Link to the external CSS stylesheet for styling the webpage -->
     	<link rel="stylesheet" href="./css/styles.css" />
 	</head>
 	
 	<body>
-	  
+	   	<!-- Header section containing the navigation bar and main introduction -->
 		<header class="header">
+			<!-- Navigation bar with links to other pages of the website -->
 			<nav class="nav">
 				<div class="container nav_container">
+					<!-- Left side of the navigation bar, typically for logo and menu items -->
 					<div class="nav_left">
+						<!-- Logo link that redirects to the home page -->
 						<a href="#" class="nav_logo">
 							<img src="./images/logo.png" alt="" />
 						</a>
+						<!-- List of navigation items (menu links) -->
 					  	<ul class="nav_list">
 					  		<li class="nav_item"><a href="/" class="nav_link">Home</a></li>
 							<li class="nav_item"><a href="./category.html" class="nav_link">Category</a></li>
@@ -25,15 +33,22 @@
 							<li class="nav_item"><a href="#" class="nav_link">Contact</a></li>
 						</ul>
 				  	</div>
+					<!-- Right side of the navigation bar, typically for calls to action -->
 				  	<div class="nav_right">
+						<!-- Button to join the community -->
 						<a href="#" class="btn_bg btn">Join the community</a>
 					</div>
 				</div>
 			</nav>
+			
+			<!-- Main header content area -->
 		 	<div class="container header_wrapper_container">
 				<div class="header_wrapper">
+					<!-- Main title of the page, conveying the core message or tagline -->
 					<h1 class="header_main_title">One More Friend Thousands more fun!</h1>
+					<!-- Short description or introduction under the header title -->
 					<p class="header_p">Having a pet means you have more joy, a new friend, a happy person who will always be with you to have fun. We have 200+ different pets that can meet your needs!</p>
+					 <!-- Buttons under the introduction for additional actions -->
 					<div class="header_btns">
 						<a href="$" class="btn btn_outlined">Video Intro</a>
 						<a href="$" class="btn btn_bg">Explore Now</a>
@@ -43,19 +58,23 @@
 		</header>
 	  
 		<main>
-		  
+		  	<!-- New pets section displaying some of the latest pets -->
 			<section class="section">
 				<div class="container">
+					<!-- Section header with a title and a link to see more pets -->
 					<div class="section_header">
 						<div class="section_header_left">
 							<p class="section_header_p">What's new?</p>
 							<h2 class="section_header_h2">Take a look at some of our pets!</h2>
 						</div>
 						<div class="section_header_right">
+							<!-- Button to see more pets -->
 							<a href="/category.html" class="btn_outlined btn">See more &rarr;</a>
 						</div>
 					</div>
+					<!-- Row of pet cards displaying individual pet details -->
 					<div class="row">
+						<!-- Each "column" contains a card for one pet -->
 						<div class="column">
 							<div class="card">
 								<img src="./images/1.png" alt="">
@@ -68,6 +87,7 @@
 								</div>
 							</div>
 						</div>
+						<!-- Repeat the same structure for each pet card -->
 						<div class="column">
 							<div class="card">
 								<img src="./images/2.png" alt="">
@@ -80,6 +100,7 @@
 								</div>
 							</div>
 						</div>
+						<!-- More columns (pet cards) with similar structure -->
 						<div class="column">
 							<div class="card">
 								<img src="./images/3.png" alt="">
@@ -155,13 +176,15 @@
 					</div>
 			  	</div>
 		  	</section>
-		  
+
+			<!-- Banner section with a heartfelt message about the mission -->
 		  	<section class="section">
 			  	<div class="container">
 					<div class="banner">
 						<div class="banner_wrapper">
 							<img src="./images/banner-1-img.png" alt="" class="banner_img">
 							<div class="banner_content">
+								<!-- Banner title and description explaining the mission -->
 								<h1 class="banner_title">A Heartfelt Mission: Connecting Pets with Loving Homes</h1>
 				 				<p class="banner_p">As a proud owner of four cats, I know the joy and companionship pets bring, but also the heartbreak of losing one or seeing animals in need. This project was created to help pets find loving homes, reunite lost ones with their owners, and provide easy access to pet essentials.</p>
 						 		<div class="banner_btns">
@@ -174,6 +197,7 @@
 			  	</div>
 		  	</section>
 
+			<!-- Product section explaining how to choose products and showing available products -->
 		  	<section class="section">
 			 	<div class="container">
 					<div class="section_header">
@@ -185,7 +209,9 @@
 							<a href="#" class="btn_outlined btn">See more &rarr;</a>
 						</div>
 					</div>
+					<!-- Row displaying various products with details -->
 			  		<div class="row">
+						<!-- Each column contains a product card with details such as name, type, price, and a free gift -->
 						<div class="column">
 							<div class="card">
 								<img src="./images/p1.png" alt="">
@@ -203,6 +229,7 @@
 								</div>
 							</div>
 						</div>
+						<!-- Similar structure for more products -->
 						<div class="column">
 							<div class="card">
 								<img src="./images/p2.png" alt="">
@@ -320,7 +347,8 @@
 			  		</div>
 				</div>
 		  	</section>
-		  
+
+			<!-- Section displaying logos of pets sellers -->
 		 	<section class="section">
 			  	<div class="container">
 				  	<div class="section_header">
@@ -329,9 +357,11 @@
 							<h2 class="section_header_h2">Our Pets Sellers</h2>
 						</div>
 				  		<div class="section_header_right">
+							<!-- Button to see more sellers -->
 							<a href="#" class="btn_outlined btn">See more &rarr;</a>
 						</div>
 					</div>
+					<!-- Logos of pets sellers displayed in a container -->
 					<div class="logos_container">
 						<img src="./images/logos/1.png" alt="" class="logos_logo">
 						<img src="./images/logos/2.png" alt="" class="logos_logo">
@@ -349,9 +379,11 @@
 					<div class="banner2">
 						<div class="banner2_wrapper">
 							<div class="banner2_content">
+								<!-- Banner Titles -->
 								<h1 class="banner2_title">Giving Pets a</h1>
 								<h1 class="banner2_title"> Second Chance</h1>
-				 				<p class="banner2_p">Thousands of pets are waiting for a second chance—a warm home, a loving family, and a fresh start. Whether it's a stray longing for care or a rescue in need of a forever home, you can make a difference. Open your heart and give a pet the love they deserve. Adopt today and change a life—maybe even your own.</p>
+				 				<!-- Description about giving pets a second chance -->
+								<p class="banner2_p">Thousands of pets are waiting for a second chance—a warm home, a loving family, and a fresh start. Whether it's a stray longing for care or a rescue in need of a forever home, you can make a difference. Open your heart and give a pet the love they deserve. Adopt today and change a life—maybe even your own.</p>
 						 		<div class="banner2_btns">
 							 		<a href="$" class="btn btn_outlined">Video Intro</a>
 									<a href="$" class="btn btn_bg">Explore Now</a>
@@ -362,18 +394,23 @@
 			  	</div>
 		  	</section>
 
+			<!-- Useful Pet Knowledge Section - educates the users about pets -->
 			<section class="section">
 				<div class="container">
+					<!-- Section header with title and 'See more' link -->
 					<div class="section_header">
 						<div class="section_header_left">
 							<p class="section_header_p">You already know ?</p>
 							<h2 class="section_header_h2">Useful Pet Knowledge</h2>
 						</div>
+						 <!-- Button to view more content (potentially links to a full blog or knowledge base) -->
 				  		<div class="section_header_right">
 							<a href="#" class="btn_outlined btn">See more &rarr;</a>
 						</div>
 					</div>
+					<!-- Blog-like cards displaying useful articles -->
 					<div class="row">
+						<!-- First article card -->
 						<div class="column">
 							<div class="card">
 								<img src="./images/blog1.png" alt="">
@@ -384,6 +421,7 @@
 								</div>
 							</div>
 						</div>
+						<!-- Second article card -->
 						<div class="column">
 							<div class="card">
 								<img src="./images/blog2.png" alt="">
@@ -394,6 +432,7 @@
 								</div>
 							</div>
 						</div>
+						<!-- Third article card -->
 						<div class="column">
 							<div class="card">
 								<img src="./images/blog3.png" alt="">
@@ -410,22 +449,30 @@
 
 	  	</main>
 
+		<!-- Footer Section - Contains footer details like social media, copyright, and policies -->
 		<footer class="footer">
 			<div class="container footer_container">
+				<!-- Top part of the footer for user registration -->
 				<div class="footer_top">
 					<h2 class="footer_top_heading">Register now, so you don't miss our program!</h2>
+					<!-- Registration form with input and button -->
 					<form action="#" class="footer_top_form">
 						<input type="text" class="footer_top_form_input"/>
 						<button class="footer_top_form_btn btn">Register</button>
 					</form>
 				</div>
+				<!-- Social Media Links -->
 				<div class="footer_middle">
 					<div class="footer_middle_socials">
+						<!-- Facebook icon -->
 						<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="#000"><path d="M24 12.07C24 5.41 18.63 0 12 0S0 5.4 0 12.07C0 18.1 4.39 23.1 10.13 24v-8.44H7.08v-3.49h3.04V9.41c0-3.02 1.8-4.7 4.54-4.7 1.31 0 2.68.24 2.68.24v2.97h-1.5c-1.5 0-1.96.93-1.96 1.89v2.26h3.32l-.53 3.5h-2.8V24C19.62 23.1 24 18.1 24 12.07"/></svg>
+						<!-- Twitter icon -->
 						<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="#000"><path d="M24 4.37a9.6 9.6 0 0 1-2.83.8 5.04 5.04 0 0 0 2.17-2.8c-.95.58-2 1-3.13 1.22A4.86 4.86 0 0 0 16.61 2a4.99 4.99 0 0 0-4.79 6.2A13.87 13.87 0 0 1 1.67 2.92 5.12 5.12 0 0 0 3.2 9.67a4.82 4.82 0 0 1-2.23-.64v.07c0 2.44 1.7 4.48 3.95 4.95a4.84 4.84 0 0 1-2.22.08c.63 2.01 2.45 3.47 4.6 3.51A9.72 9.72 0 0 1 0 19.74 13.68 13.68 0 0 0 7.55 22c9.06 0 14-7.7 14-14.37v-.65c.96-.71 1.79-1.6 2.45-2.61z"/></svg>
+						<!-- Instagram icon -->
 						<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="#000"><path d="M16.98 0a6.9 6.9 0 0 1 5.08 1.98A6.94 6.94 0 0 1 24 7.02v9.96c0 2.08-.68 3.87-1.98 5.13A7.14 7.14 0 0 1 16.94 24H7.06a7.06 7.06 0 0 1-5.03-1.89A6.96 6.96 0 0 1 0 16.94V7.02C0 2.8 2.8 0 7.02 0h9.96zm.05 2.23H7.06c-1.45 0-2.7.43-3.53 1.25a4.82 4.82 0 0 0-1.3 3.54v9.92c0 1.5.43 2.7 1.3 3.58a5 5 0 0 0 3.53 1.25h9.88a5 5 0 0 0 3.53-1.25 4.73 4.73 0 0 0 1.4-3.54V7.02a5 5 0 0 0-1.3-3.49 4.82 4.82 0 0 0-3.54-1.3zM12 5.76c3.39 0 6.2 2.8 6.2 6.2a6.2 6.2 0 0 1-12.4 0 6.2 6.2 0 0 1 6.2-6.2zm0 2.22a3.99 3.99 0 0 0-3.97 3.97A3.99 3.99 0 0 0 12 15.92a3.99 3.99 0 0 0 3.97-3.97A3.99 3.99 0 0 0 12 7.98zm6.44-3.77a1.4 1.4 0 1 1 0 2.8 1.4 1.4 0 0 1 0-2.8z"/></svg>
 					</div>
 				</div>
+				<!-- Bottom footer with copyright and policy links -->
 				<div class="footer_bottom">
 					<div class="footer_copyright">Copyright, All Rights Reserved 2025</div>
 					<img src="./images/logo.png" alt="" class="footer_bottom_logo">
