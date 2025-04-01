@@ -1,62 +1,84 @@
+// Importing variables from the abstract/variables file for reusable colors
 @use "../abstract/variables" as var;
+
+// Base styling for the card component
 .card {
-  padding: 1rem;
-  background-color: var.$white;
-  border-radius: 5px;
-  box-shadow: 2px 2px 10px rgba(0,0,0,0.2);
+  padding: 1rem; // Padding inside the card for spacing
+  background-color: var.$white; // Set background color to white using variable
+  border-radius: 5px; // Round the corners of the card
+  box-shadow: 2px 2px 10px rgba(0,0,0,0.2); // Add a subtle shadow effect for depth
+
+  // Styling for the image inside the card
   & > img {
-    width: 100%;
+    width: 100%; // Make the image stretch to the full width of the card
   }
 
-  &_body{
-    &_title{
-      font-size: 1.6rem;
-      margin: 0.6rem 0rem;
-    }
+  // Styling for the body section of the card
+  &_body {
     
-    &_details{
-      width: 100%;
-      display: flex;
-      margin-bottom: 0.7rem;
-      &_gender {
-        font-size: 1.4rem;
-        margin-right: 1rem;
-      }
-      &_age{
-        font-size: 1.4rem;
-      }
-      &_price{
-        font-weight: 700;
-      }
-      &_gift{
-        margin-top: 1.5rem;
-        padding: 1rem;
-        background-color: var.$secondary_color_1;
-        display: flex;
-        font-size: 1.4rem;
-        align-items: center;
-        &_icon{
-          margin-right: 1rem;
-        }
-        &_p{
-          font-weight: 600;
-        }
-      }
-     
-    }
-    &_category{
-      background-color: var.$primary_color_1;
-      padding: 0.4rem 0.5rem;
-      color: var.$white;
-      border-radius: 10rem;
-      font-size: 1rem;
-      width: 29%;
-      margin: 0.7rem 0rem;
+    // Styling for the title inside the card body
+    &_title {
+      font-size: 1.6rem; // Set font size for title
+      margin: 0.6rem 0rem; // Add margin for spacing
     }
 
-    &_text{
-      font-size: 1.2rem;
+    // Styling for the details section inside the card body
+    &_details {
+      width: 100%; // Ensure the details section takes full width
+      display: flex; // Use flexbox for layout
+      margin-bottom: 0.7rem; // Add margin at the bottom
+
+      // Gender information in the details
+      &_gender {
+        font-size: 1.4rem; // Set font size for gender
+        margin-right: 1rem; // Add space to the right
+      }
+
+      // Age information in the details
+      &_age {
+        font-size: 1.4rem; // Set font size for age
+      }
+
+      // Price styling in the details
+      &_price {
+        font-weight: 700; // Make the price bold for emphasis
+      }
+
+      // Gift section in the details
+      &_gift {
+        margin-top: 1.5rem; // Add margin on top
+        padding: 1rem; // Add padding for spacing
+        background-color: var.$secondary_color_1; // Use secondary color for the background
+        display: flex; // Use flexbox to align items
+        font-size: 1.4rem; // Set font size
+        align-items: center; // Align items in the center
+
+        // Icon inside the gift section
+        &_icon {
+          margin-right: 1rem; // Add space to the right of the icon
+        }
+
+        // Paragraph inside the gift section
+        &_p {
+          font-weight: 600; // Make the text bold
+        }
+      }
     }
-    
+
+    // Category section in the card body
+    &_category {
+      background-color: var.$primary_color_1; // Set background color to primary color
+      padding: 0.4rem 0.5rem; // Add padding for the category label
+      color: var.$white; // Set text color to white
+      border-radius: 10rem; // Round the corners of the category label
+      font-size: 1rem; // Set font size
+      width: 29%; // Limit the width of the category label
+      margin: 0.7rem 0rem; // Add margin for spacing
+    }
+
+    // Text section in the card body
+    &_text {
+      font-size: 1.2rem; // Set font size for the text
+    }
   }
 }
