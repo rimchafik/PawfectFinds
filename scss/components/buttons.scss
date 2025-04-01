@@ -1,19 +1,27 @@
+// buttons.scss
+
+// Importing variables from the abstract/variables file for reusable color and typography variables
 @use "../abstract/variables" as var;
-.btn{
-  text-decoration: none;
-  padding: 1.3rem 2.2rem;
+
+// Base styling for buttons
+.btn {
+  text-decoration: none; // Remove any default text decoration like underlines
+  padding: 1.3rem 2.2rem; // Add padding to the button for spacing and comfort
+
+  // Styling for outlined buttons
   &_outlined {
-    border: 2px solid var.$primary_color_1;
-    border-radius: 10rem;
-    color: var.$primary_color_1;
-    font-weight: 600;
+    border: 2px solid var.$primary_color_1; // Add a border with the primary color
+    border-radius: 10rem; // Round the corners of the button
+    color: var.$primary_color_1; // Set the text color to the primary color
+    font-weight: 600; // Make the font bold for emphasis
   }
 
+  // Styling for background color buttons
   &_bg {
-    background-color: var.$primary_color_1;
-    color: var.$white;
-    border: 2px solid var.$primary_color_1;
-    border-radius: 10rem;
-    margin-left: 1rem;
+    background-color: var.$primary_color_1; // Set the background color to the primary color
+    color: var.$white; // Set the text color to white
+    border: 2px solid var.$primary_color_1; // Add a border with the primary color
+    border-radius: 10rem; // Round the corners of the button
+    margin-left: 1rem; // Add left margin to space out buttons when in a group
   }
 }
