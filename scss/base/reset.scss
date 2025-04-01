@@ -1,23 +1,33 @@
+// reset.scss
+
+// Importing variables from the abstract/variables file for reusable color and typography variables
 @use "../abstract/variables" as var;
+
+// Importing Google font for Montserrat with weight options
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
+// Global reset for all elements, setting padding, margin, and box-sizing to default across the project
 * {
-	padding: 0px;
-	margin: 0px;
-	box-sizing: border-box;
+  padding: 0px; // Remove default padding
+  margin: 0px; // Remove default margin
+  box-sizing: border-box; // Set box-sizing to border-box for consistent layout behavior
 }
 
+// Setting a base font-size of 10px for easier scaling of rem units
 html {
-	font-size: 10px;
+  font-size: 10px;
 }
 
+// Basic styling for the body with Montserrat font and background color
 body {
-        font-family: "Montserrat", sans-serif;
-        font-size: 1.6rem;
-	color: var.$text;
-	font-weight: 500;
-	background-color: #eee;
+  font-family: "Montserrat", sans-serif; // Set default font to Montserrat
+  font-size: 1.6rem; // Set base font size to 1.6rem
+  color: var.$text; // Use $text variable from variables.scss for text color
+  font-weight: 500; // Set a medium font weight
+  background-color: #eee; // Set a light grey background for the page
 }
-.section{
-	margin-top: 10rem;
+
+// Styling for sections with top margin for spacing
+.section {
+  margin-top: 10rem; // Add margin-top to sections for spacing
 }
