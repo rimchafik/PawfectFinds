@@ -1,87 +1,103 @@
 @use "../abstract/variables" as var;
 
+// Define base styles for the product section with padding, border, and border-radius
 .product{
     width: 100%;
     padding: 5rem;
     border: 2px solid var.$secondary_color_3;
     border-radius: 2rem;
     
+    // Product card layout with responsive grid setup
     &_card{
         width: 100%;
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
     }
 
+    // Styling for product details section with left margin
     &_details{
         margin-left: 3rem;
     }
 
+    // Product title styling with font size and bottom margin
     &_title{
         font-size: 2.8rem;
         margin-bottom: 1rem;
     }
 
+    // Buttons section for the product with top margin
     &_btns{
         margin-top: 3rem;
     }
 
+    // List styling for product items with top margin
     &_list{
         list-style: none;
         margin-top: 6rem;
     }
 
+    // Item container styling for individual product details, including borders
     &_item{
         width: 100%;
         display: flex;
         margin: 2rem 0rem 2rem 0rem;
         border-bottom: 1px solid var.$secondary_color_3;
 
+        // Key column within product details with width restriction
         &_key{
             width: 40%;
         }
 
+        // Value column within product details with bottom margin
         &_value{
             margin-bottom: 2rem;
         }
     }
 }
 
+// Swiper container for product images with full-width and height settings
 .swiper {
     width: 100%;
     height: 100px;
     margin-left: auto;
     margin-right: auto;
-  }
+}
 
-  .swiper-slide {
+// Swiper slide with background size and positioning setup
+.swiper-slide {
     background-size: cover;
     background-position: center;
-  }
+}
 
-  .mySwiper2 {
+// Swiper container settings for the main swiper images with height adjustments
+.mySwiper2 {
     height: 80%;
     width: 100%;
-  }
+}
 
-  .mySwiper {
+// Swiper container settings for thumbnails with padding adjustments
+.mySwiper {
     height: 20%;
     box-sizing: border-box;
     padding: 10px 0;
-  }
+}
 
-  .mySwiper .swiper-slide {
+// Swiper thumbnail slide style with width and opacity effects for inactive state
+.mySwiper .swiper-slide {
     width: 25%;
     height: 100%;
     opacity: 0.4;
-  }
+}
 
-  .mySwiper .swiper-slide-thumb-active {
+// Swiper thumbnail active state style to highlight the selected slide
+.mySwiper .swiper-slide-thumb-active {
     opacity: 1;
-  }
+}
 
-  .swiper-slide img {
+// Style for the images within swiper slides to ensure proper sizing and cover fit
+.swiper-slide img {
     display: block;
     width: 100%;
     height: 100%;
     object-fit: cover;
-  }
+}
