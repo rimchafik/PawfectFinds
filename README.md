@@ -84,7 +84,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 
 
-<img width="959" alt="image" src="https://github.com/user-attachments/assets/36c20c95-dbfe-47ef-be71-bf2508a80ed4" />
+![Home Page Screenshot](Full page screenshot.jpeg)
 
 
 ## The Story Behind PawFect Finds
