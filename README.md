@@ -1,4 +1,4 @@
-<img width="959" alt="image" src="https://github.com/user-attachments/assets/36c20c95-dbfe-47ef-be71-bf2508a80ed4" /># **PawFect Finds**
+# **PawFect Finds**
 
 ## **Introduction**
 
@@ -82,9 +82,9 @@ The above copyright notice and this permission notice shall be included in all c
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
-![image](https://github.com/user-attachments/assets/ad589a03-ef7c-431e-b41d-42cfb0979a7f)
 
 
+<img width="959" alt="image" src="https://github.com/user-attachments/assets/36c20c95-dbfe-47ef-be71-bf2508a80ed4" />
 
 
 ## The Story Behind PawFect Finds
